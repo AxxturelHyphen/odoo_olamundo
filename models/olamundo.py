@@ -1,9 +1,8 @@
 from odoo import models, fields
 
+class Olamundo(models.Model):
+    _name = 'odoo_olamundo.olamundo'
+    _description = 'Modelo Ola Mundo'
 
-class OlaMundo(models.Model):
-    _name = "odoo_olamundo.olamundo"      # nombre técnico del modelo
-    _description = "Ola Mundo (ejemplo)"
-
-    # Primer campo de la tabla:
-    name = fields.Char(string="Ola Mundo:")
+    name = fields.Char(string="Título")
+    descripcion = fields.Text(string="Descripción")

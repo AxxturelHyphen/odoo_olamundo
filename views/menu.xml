@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
+    <data>
 
-    <!-- Menú Nivel 0 -->
-    <menuitem
-        id="main_odoo_olamundo"
-        name="Menú Nivel 0. Antonio"
-        sequence="10"
-    />
+        <!-- Menú raíz de la app Ola Mundo -->
+        <menuitem id="menu_odoo_olamundo_root"
+                  name="Ola Mundo"
+                  sequence="10"/>
 
-    <!-- Menú Nivel 1, debajo del de nivel 0 -->
-    <menuitem
-        id="menu_olamundo"
-        name="A acción con ola mundo"
-        parent="main_odoo_olamundo"
-        action="olamundo_list_action"
-        sequence="10"
-    />
+        <!-- Acción + menú para el modelo Rexistro (odoo_olamundo.olamundo) -->
+        <record id="action_odoo_olamundo_olamundo" model="ir.actions.act_window">
+            <field name="name">Rexistro</field>
+            <field name="res_model">odoo_olamundo.olamundo</field>
+            <field name="view_mode">tree,form</field>
+        </record>
 
+        <menuitem id="menu_odoo_olamundo_rexistro"
+                  name="Rexistro"
+                  parent="menu_odoo_olamundo_root"
+                  action="action_odoo_olamundo_olamundo"
+                  sequence="10"/>
+
+        <!-- Acción + menú para el modelo Información (odoo_olamundo.informacion) -->
+        <record id="action_odoo_olamundo_informacion" model="ir.actions.act_window">
+            <field name="name">Información</field>
+            <field name="res_model">odoo_olamundo.informacion</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="menu_odoo_olamundo_informacion"
+                  name="Información"
+                  parent="menu_odoo_olamundo_root"
+                  action="action_odoo_olamundo_informacion"
+                  sequence="20"/>
+
+    </data>
 </odoo>

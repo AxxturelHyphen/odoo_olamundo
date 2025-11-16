@@ -3,7 +3,7 @@
     <data noupdate="1">
 
         <!-- Rexistro 1 -->
-        <record id="odoo_basico_informacion_1" model="odoo_basico.informacion">
+        <record id="odoo_olamundo_informacion_1" model="odoo_olamundo.informacion">
             <field name="name">Rexistro 1</field>
             <field name="descripcion">Descripción Rexistro 1</field>
             <field name="autorizado">True</field>
@@ -15,7 +15,7 @@
         </record>
 
         <!-- Rexistro 2 -->
-        <record id="odoo_basico_informacion_2" model="odoo_basico.informacion">
+        <record id="odoo_olamundo_informacion_2" model="odoo_olamundo.informacion">
             <field name="name">Rexistro 2</field>
             <field name="descripcion">Descripción Rexistro 2</field>
             <field name="autorizado">True</field>
@@ -27,7 +27,7 @@
         </record>
 
         <!-- Rexistro 3 -->
-        <record id="odoo_basico_informacion_3" model="odoo_basico.informacion">
+        <record id="odoo_olamundo_informacion_3" model="odoo_olamundo.informacion">
             <field name="name">Rexistro 3</field>
             <field name="descripcion">Descripción Rexistro 3</field>
             <field name="autorizado">True</field>
@@ -39,7 +39,7 @@
         </record>
 
         <!-- Rexistro 4 -->
-        <record id="odoo_basico_informacion_4" model="odoo_basico.informacion">
+        <record id="odoo_olamundo_informacion_4" model="odoo_olamundo.informacion">
             <field name="name">Rexistro 4</field>
             <field name="descripcion">Descripción Rexistro 4</field>
             <field name="autorizado">False</field>
@@ -51,7 +51,7 @@
         </record>
 
         <!-- Rexistro 5 -->
-        <record id="odoo_basico_informacion_5" model="odoo_basico.informacion">
+        <record id="odoo_olamundo_informacion_5" model="odoo_olamundo.informacion">
             <field name="name">Rexistro 5</field>
             <field name="descripcion">Descripción Rexistro 5</field>
             <field name="autorizado">True</field>
@@ -62,8 +62,8 @@
             <field name="peso">5</field>
         </record>
 
-        <!-- Rexistro 6 (el que se ve en tu captura) -->
-        <record id="odoo_basico_informacion_6" model="odoo_basico.informacion">
+        <!-- Rexistro 6 -->
+        <record id="odoo_olamundo_informacion_6" model="odoo_olamundo.informacion">
             <field name="name">Rexistro 6</field>
             <field name="descripcion">Descripción Rexistro 6</field>
             <field name="autorizado">False</field>
@@ -75,7 +75,7 @@
         </record>
 
         <!-- Rexistro 7 -->
-        <record id="odoo_basico_informacion_7" model="odoo_basico.informacion">
+        <record id="odoo_olamundo_informacion_7" model="odoo_olamundo.informacion">
             <field name="name">Rexistro 7</field>
             <field name="descripcion">Descripción Rexistro 7</field>
             <field name="autorizado">True</field>

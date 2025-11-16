@@ -1,0 +1,13 @@
+id,name,descripcion,autorizado,sexo_traducido,alto_en_cms,ancho_en_cms,longo_en_cms,peso
+odoo_olamundo.odoo_olamundo_informacion_1,Rexistro 1,Descripción Rexistro 1,True,Home,1,1,1,1.0
+odoo_olamundo.odoo_olamundo_informacion_2,Rexistro 2,Descripción Rexistro 2,True,Muller,2,2,2,2.0
+odoo_olamundo.odoo_olamundo_informacion_3,Rexistro 3,Descripción Rexistro 3,True,Home,3,3,3,3.0
+odoo_olamundo.odoo_olamundo_informacion_4,Rexistro 4,Descripción Rexistro 4,False,Muller,4,4,4,4.0
+odoo_olamundo.odoo_olamundo_informacion_5,Rexistro 5,Descripción Rexistro 5,True,Home,5,5,5,5.0
+odoo_olamundo.odoo_olamundo_informacion_6,Rexistro 6,Descripción Rexistro 6,False,Muller,6,6,6,6.0
+,Rexistro 7,Descripción Rexistro 7,True,Muller,7,7,7,7.0
+,Rexistro 8,Descripción Rexistro 8,True,Muller,8,8,8,8.0
+,Rexistro 9,Descripción Rexistro 9,True,Muller,9,9,9,9.0
+,Rexistro 10,Descripción Rexistro 10,False,Muller,10,10,10,10.0
+,Rexistro 11,Descripción Rexistro 11,True,Home,11,11,11,11.0
+,Rexistro 12,Descripción Rexistro 12,False,Muller,12,12,12,12.0
