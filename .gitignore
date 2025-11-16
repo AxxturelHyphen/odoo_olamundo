@@ -1,0 +1,20 @@
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos virtuales
+venv/
+.env/
+.venv/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Cosas de Odoo que no quieras subir (logs, etc)
+*.log

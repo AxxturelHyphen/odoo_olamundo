@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- Acción (ir.actions.act_window) para abrir el modelo -->
+    <record id="olamundo_list_action" model="ir.actions.act_window">
+        <field name="name">Ola Mundo</field>
+        <field name="res_model">odoo_olamundo.olamundo</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p>Crea os teus rexistros de "Ola Mundo".</p>
+        </field>
+    </record>
+
+    <!-- Vista Tree (lista) -->
+    <record id="olamundo_tree_view" model="ir.ui.view">
+        <field name="name">odoo_olamundo.olamundo.tree</field>
+        <field name="model">odoo_olamundo.olamundo</field>
+        <field name="arch" type="xml">
+            <tree string="Olas Mundo">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Vista Form -->
+    <record id="olamundo_form_view" model="ir.ui.view">
+        <field name="name">odoo_olamundo.olamundo.form</field>
+        <field name="model">odoo_olamundo.olamundo</field>
+        <field name="arch" type="xml">
+            <form string="Ola Mundo">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+</odoo>
