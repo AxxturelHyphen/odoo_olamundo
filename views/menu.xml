@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
 
-    <!-- Menú nivel 0 (aparece en la barra de arriba) -->
-    <menuitem id="main_odoo_olamundo"
-              name="Menú Nivel 0. Ola Mundo"/>
+    <!-- Menú Nivel 0 -->
+    <menuitem
+        id="main_odoo_olamundo"
+        name="Menú Nivel 0. Antonio"
+        sequence="10"
+    />
 
-    <!-- Menú nivel 1 (dentro del anterior, abre nuestra acción) -->
-    <menuitem id="menu_olamundo"
-              name="Ola Mundo"
-              parent="main_odoo_olamundo"
-              action="olamundo_list_action"/>
+    <!-- Menú Nivel 1, debajo del de nivel 0 -->
+    <menuitem
+        id="menu_olamundo"
+        name="A acción con ola mundo"
+        parent="main_odoo_olamundo"
+        action="olamundo_list_action"
+        sequence="10"
+    />
+
 </odoo>
